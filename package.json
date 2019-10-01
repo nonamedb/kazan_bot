@@ -1,0 +1,29 @@
+{
+  "name": "vk-bot",
+  "version": "0.0.1",
+  "description": "A simple vk bot for dev Noname",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-vk-bot-api-new-keybord": "^2.4.12",
+    "node-vk-bot-api": "*",
+    "body-parser": "^1.19.0",
+    "mqtt": "^3.0.0",
+    "lowdb": "^1.0.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
